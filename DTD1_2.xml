@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="2epy.xsl" type="text/xsl"?>
+
+<!DOCTYPE Epy [
+<!ELEMENT Epy (information*)>
+<!ELEMENT information (id, name, lname , tel, email)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+
+<Epy>
+    <information>
+        <id> Jc01 </id>
+        <name> นาย ภาษยากร </name>
+        <lname> ปานสินธ์ </lname>
+        <tel> 0888888888 </tel>
+        <email> xxxxx01@gamil.com </email>
+    </information>
+
+    <information>
+        <id> Jc02 </id>
+        <name> นาย สมศรี </name>
+        <lname> หมายปอง </lname>
+        <tel> 095495948 </tel>
+        <email> xxxxx02@gamil.com </email>
+    </information>
+
+    <information>
+        <id> jc03 </id>
+        <name> นาง สมปอง </name>
+        <lname> สงสัย </lname>
+        <tel> 096856866 </tel>
+        <email> xxxxx03@gamil.com </email>
+    </information>
+
+    <information>
+        <id> jc04 </id>
+        <name> นาง สมหมาย </name>
+        <lname> ขายหอย </lname>
+        <tel> 0952785275 </tel>
+        <email> xxxxx04@gamil.com </email>
+    </information>
+
+    <information>
+        <id>jc05</id>
+        <name> นาย จักรี </name>
+        <lname> มีตังค์ </lname>
+        <tel> 0989675272 </tel>
+        <email> xxxxx05@gamil.com </email>
+    </information>
+</Epy>

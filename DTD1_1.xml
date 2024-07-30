@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="1Product.xsl" type="text/xsl"?>
+
+<!DOCTYPE Product [
+<!ELEMENT Product (information*)>
+<!ELEMENT information (id, name, detail , price, num)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT detail (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+]>
+<Product>
+    <information>
+        <id>01</id>
+        <name>เป๊ปซี่ เครื่องดื่มน้ําอัดลม </name>
+        <detail>เป๊ปซี่ เครื่องดื่มน้ําอัดลม 1.95 ลิตร แพ็ค ละ6ขวด </detail>
+        <price>THB 6450 แพ็คละ 215</price>
+        <num> 30 แพ็ค</num>
+    </information>
+
+    <information>
+        <id>02</id>
+        <name> เป๊ปซี่ เครื่องดื่มน้ําอัดลม 345 มล. </name>
+        <detail> เป๊ปซี่ เครื่องดื่มน้ําอัดลม 345 มล. แพ็คละ24ขวด </detail>
+        <price> THB 5480 แพ็คละ 274</price>
+        <num> 20 แพ็ค</num>
+    </information>
+
+    <information>
+        <id>03</id>
+        <name> แฟนต้า น้ําอัดลม กลิ่นส้ม 1.25 ลิตร </name>
+        <detail> แฟนต้า น้ําอัดลม กลิ่นส้ม 1.25 ลิตร แพ็ค ละ 12 ขวด </detail>
+        <price> THB 5580 แพ็คละ 279 </price>
+        <num> 20 แพ็ค</num>
+    </information>
+
+    <information>
+        <id>04</id>
+        <name>แฟนต้า น้ําอัดลม กลิ่นสตรอเบอร์รี่ 1.25 ลิตร  </name>
+        <detail> แฟนต้า น้ําอัดลม กลิ่นสตรอเบอร์รี่ 1.25 ลิตร แพ็คละ 12 ขวด </detail>
+        <price> THB 5580 แพ็คละ 279 </price>
+        <num> 20 แพ็ค</num>
+    </information>
+
+    <information>
+        <id>05</id>
+        <name>แฟนต้า น้ําอัดลม กลิ่นองุ่น 1.25 ลิตร </name>
+        <detail>แฟนต้า น้ําอัดลม กลิ่นองุ่น 1.25 ลิตร แพ็คละ 12 ขวด </detail>
+        <price> THB 5580 แพ็คละ 279 </price>
+        <num> 20 แพ็ค</num>
+    </information>
+    
+</Product>
