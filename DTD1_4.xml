@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="td.xsl" type="text/xsl"?>
+
+<!DOCTYPE td [
+<!ELEMENT td (information*)>
+<!ELEMENT information (id, tal, pro , numnun,ruam)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT tal (#PCDATA)>
+<!ELEMENT pro (#PCDATA)>
+<!ELEMENT numnun (#PCDATA)>
+<!ELEMENT ruam (#PCDATA)>
+]>
+<td>
+
+    <information>
+        <id> tred01 </id>
+        <tal> 0988546664 </tal>
+        <pro> เป๊ปซี่ เครื่องดื่มน้ําอัดลม 1.95 ลิตร แพ็ค ละ6ขวด </pro>
+        <numnun> แพ็คละ215฿ 15 แพ็ค</numnun>
+        <ruam> 3225฿ </ruam>
+        
+    </information>
+
+    <information>
+        <id> tred02 </id>
+        <tal> 0879547575 </tal>
+        <pro> เป๊ปซี่ เครื่องดื่มน้ําอัดลม 345 มล.แพ็คละ24ขวด </pro>
+        <numnun> แพ็คละ274฿ 13 แพ็ค</numnun>
+        <ruam> 3562฿ </ruam>
+        
+    </information>
+
+    <information>
+        <id> tred03 </id>
+        <tal> 0985657689 </tal>
+        <pro> แฟนต้า น้ําอัดลม กลิ่นสตรอเบอร์รี่ 1.25 ลิตร แพ็คละ 12 ขวด </pro>
+        <numnun> แพ็คละ279฿ 12 แพ็ค</numnun>
+        <ruam> 3348฿ </ruam>
+        
+    </information>
+
+    <information>
+        <id> tred04 </id>
+        <tal> 0989564678 </tal>
+        <pro> แฟนต้า น้ําอัดลม กลิ่นส้ม 1.25 ลิตร แพ็ค ละ 12 ขวด </pro>
+        <numnun> แพ็คละ279฿ 14 แพ็ค</numnun>
+        <ruam> 3906฿ </ruam>
+        
+    </information>
+
+    <information>
+        <id> tred05 </id>
+        <tal> 0958764568 </tal>
+        <pro> แฟนต้า น้ําอัดลม กลิ่นองุ่น 1.25 ลิตร แพ็คละ 12 ขวด </pro>
+        <numnun> แพ็คละ279฿ 10 แพ็ค</numnun>
+        <ruam> 2790฿ </ruam>
+        
+    </information>
+
+</td>
